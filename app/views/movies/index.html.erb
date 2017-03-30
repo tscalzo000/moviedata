@@ -1,0 +1,9 @@
+<h1>Movies Now Playing Across Greece</h1>
+
+<p>
+  <% @movies.each do |movie| %>
+    <%= link_to movie.title, movie %><br />
+  <% end %>
+</p>
+
+<button><%= link_to 'Refresh List', refresh_movies_path %></button>

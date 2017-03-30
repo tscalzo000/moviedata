@@ -1,0 +1,6 @@
+Title: <%= @movie.title %><br />
+Original Title: <%= @movie.original_title %><br />
+Description: <%= @movie.description %><br />
+<% @movie.directors.each do |director| %>
+  Director: <%= director.name %> <%= link_to "IMDB Profile", "www.imbd.com/name/#{director.imdb}/" %><br />
+<% end %>

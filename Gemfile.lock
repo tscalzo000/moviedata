@@ -68,6 +68,8 @@ GEM
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
+    jsonify (0.4.1)
+      multi_json (~> 1.3)
     launchy (2.4.3)
       addressable (~> 2.3)
     listen (3.0.8)
@@ -83,6 +85,7 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.10.1)
+    multi_json (1.12.1)
     nio4r (2.0.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
@@ -200,6 +203,7 @@ DEPENDENCIES
   capybara
   factory_girl_rails
   jquery-rails
+  jsonify
   launchy
   listen (~> 3.0.5)
   pg (~> 0.18)
